@@ -1,17 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 // prop-types is a library for typechecking of props.
 import PropTypes from "prop-types";
@@ -49,7 +35,8 @@ function RotatingCard({ color, image, title, description, action }) {
           )}, url(${image})`,
         backgroundSize: "cover",
         backfaceVisibility: "hidden",
-        transform: "rotateY(180deg)",
+        transform: "rotateY(180deg)",    
+        height: 450
       }}
     >
       <MKBox pt={12} pb={2} px={2} textAlign="center" lineHeight={1}>

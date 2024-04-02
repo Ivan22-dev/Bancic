@@ -1,23 +1,4 @@
-/**
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-/**
- * The base colors for the Material Kit 2 React.
- * You can add new color using this file.
- * You can customized the colors for the entire Material Kit 2 React using thie file.
- */
 
 export default {
   background: {
@@ -55,7 +36,7 @@ export default {
   },
 
   info: {
-    main: "#1A73E8",
+    main: "#60534d",
     focus: "#1662C4",
   },
 
@@ -108,8 +89,8 @@ export default {
     },
 
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "#B6ACA6",
+      state: "#60534d",
     },
 
     success: {

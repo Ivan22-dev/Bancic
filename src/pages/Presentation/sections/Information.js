@@ -1,17 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 // @mui material components
 import Container from "@mui/material/Container";
@@ -27,8 +13,8 @@ import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 // Images
-import bgFront from "assets/images/rotating-card-bg-front.jpeg";
-import bgBack from "assets/images/rotating-card-bg-back.jpeg";
+import bgFront from "assets/images/rotatingfront.jpg";
+import bgBack from "assets/images/rotatingback.jpg";
 
 function Information() {
   return (
@@ -42,21 +28,20 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Upoznajte se s
                     <br />
-                    Material Kit
+                    EMS-om
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Otkrijte više"
+                description="Saznajte što je elektromišićna stimulacija"
                 action={{
                   type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  route: "/pages/ems",
+                  label: "Odaberite",
                 }}
               />
             </RotatingCard>
