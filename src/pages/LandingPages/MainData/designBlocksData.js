@@ -40,7 +40,7 @@ export default [
     title: "Vrste Treninga",
     description: "Za Vas smo pripremili individualne i timske treninge",
     img:training,
-    fulldescription: <>{"Nakon upoznavanja i ispunjavanja izjave u kojem garantirate da nemate epilepsiju ili nekakav srčani stent radimo sljedeće:"}<li>Kompletna analiza tijela</li><li>Kompletno mjerenje tijela</li><li>Detaljno utvrđivanje trenutnog stanja</li><li>Postavljanje ciljeva</li><li>Planiranje prehrane</li><li>Ostvarivanje zadanog cilja</li><br/><br/>{"U cilju ostvarenja zadanih ciljeva nudimo mogućnost svakodnevnih dolazaka, pa do osnovnog paketa koji uključuje dva puta tjedno. Svi vrste treninga kombiniramo s kardio treningom."} </>
+    fulldescription: <>{"Nakon upoznavanja i ispunjavanja izjave u kojem garantirate da nemate epilepsiju ili nekakav srčani stent radimo sljedeće:"}<li>Kompletna analiza tijela</li><li>Kompletno mjerenje tijela</li><li>Detaljno utvrđivanje trenutnog stanja</li><li>Postavljanje ciljeva</li><li>Planiranje prehrane</li><li>Ostvarivanje zadanog cilja</li><br/><br/>{"U cilju ostvarenja zadanih ciljeva nudimo mogućnost svakodnevnih dolazaka, pa do osnovnog paketa koji uključuje dva puta tjedno. Sve vrste treninga kombiniramo s kardio treningom."} </>
   }
 ]
 ;

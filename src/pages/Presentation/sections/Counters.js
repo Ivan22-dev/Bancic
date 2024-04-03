@@ -19,8 +19,8 @@ function Counters() {
             <DefaultCounterCard
               count={70}
               suffix="+"
-              title="Coded Elements"
-              description="From buttons, to inputs, navbars, alerts or cards, you are covered"
+              title="Zadovoljnih korisnika"
+              description="Pridruži se velikom broju zadovoljnih korisnika i ostvari svoj cilj"
             />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
@@ -28,16 +28,17 @@ function Counters() {
             <DefaultCounterCard
               count={15}
               suffix="+"
-              title="Design Blocks"
-              description="Mix the sections, change the colors and unleash your creativity"
+              title="Godina iskustva"
+              description="Prepusti se našem timu stručnjaka s višegodišnjim iskustvom"
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
           </Grid>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={4}
-              title="Pages"
-              description="Save 3-4 weeks of work when you use our pre-made pages for your website"
+              count={3}
+              suffix="x"
+              title="Mršavi brže"
+              description="Jedan EMS trening zamjenjuje 3-4 konvencionalna treninga"
             />
           </Grid>
         </Grid>

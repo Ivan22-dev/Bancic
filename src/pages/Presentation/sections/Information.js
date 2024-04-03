@@ -50,33 +50,32 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  icon="restaurant_menu"
+                  title="Prehrana"
+                  description="Za Vas planiramo te kontinuirano pratimo Vašu prehranu kako bi brže ostvarili željeni cilj"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  icon="fitness_center"
+                  title="Treninzi"
+                  description="Nudimo mogućnosti svakodnevnih dolazaka, pa do osnovnog paketa dva puta tjedno"
                 />
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  icon="euro"
+                  title="Sačuvaj vrijeme i novac"
+                  description="EMS trening traje 3-4 puta kraće od konvencialnog treninga te brže dolazite do ciljanih rezultata"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  icon="directions_run"
+                  title="Dodatne aktivnosti"
+                  description="Nudimo i ostale aktivnosti poput planinarenja, trčanja u humanitarne svrhe, izleta u nacionalne parkove..."
                 />
               </Grid>
             </Grid>
