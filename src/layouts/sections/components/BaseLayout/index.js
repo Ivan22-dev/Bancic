@@ -24,16 +24,11 @@ function BaseLayout({  children }) {
       <MKBox bgColor="white" shadow="sm" py={0.25}>
         <DefaultNavbar
           routes={routes}
-          
-          transparent
-          relative
         />
       </MKBox>
-      <Container sx={{ mt: 6 }}>
+      <Container sx={{ mt: 16 }}>
         <Grid container item xs={12} flexDirection="column" justifyContent="center" mx="auto">
-          <MKBox width={{ xs: "100%", md: "50%", lg: "25%" }} mb={3}>
-           
-          </MKBox>
+         
           <MKTypography variant="h3" mb={1}>
        
           </MKTypography>

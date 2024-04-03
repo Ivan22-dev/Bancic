@@ -40,8 +40,7 @@ function Prices() {
   </>
 );
   return (
-    <BaseLayout
-  >
+    <BaseLayout>
     <Container>
     <Grid container item>
       <MKBox

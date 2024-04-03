@@ -42,7 +42,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -55,7 +55,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com/presentation"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -68,7 +68,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com/blog"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -81,7 +81,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -91,14 +91,11 @@ function Footer() {
             </Stack>
             <MKTypography variant="button" opacity={0.8}>
               Copyright © <script>document.write(new Date().getFullYear())</script>2021 Material
-              Design by Creative Tim.
+             
             </MKTypography>
           </Grid>
           <Grid item xs={12} lg={6} ml="auto" textAlign={{ xs: "center", lg: "right" }}>
-            <MKTypography variant="body1" fontWeight="bold" mb={6} sx={{ fontSize: "1.125rem" }}>
-              The reward for getting on the stage is fame. The price of fame is you can&apos;t get
-              off the stage.
-            </MKTypography>
+         
             <MKTypography
               component={Link}
               href="#dribbble"
