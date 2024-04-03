@@ -27,7 +27,7 @@ function Profile() {
                 <DefaultInfoCard
                   icon="diamond"
                   title="EMS proizvodi"
-                  description="EMS proizvodi su fleksibilni alati bilo da šetate na traci, trčite ili kombinirate vježbe na power plait-u"
+                  description="EMS proizvodi su fleksibilni alati bilo da šetate na traci ili kombinirate vježbe na power plait-u"
                 />
               </MKBox>
             </Grid>
