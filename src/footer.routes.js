@@ -27,7 +27,7 @@ export default {
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/watch?v=IrDVyLGwAq8",
+      link: "https://youtu.be/bmvOC8P27L4",
     },
   ],
   menus: [

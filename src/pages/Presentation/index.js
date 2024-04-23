@@ -81,7 +81,7 @@ function Presentation() {
             >
               Add short decription about gym developers around the world.
             </MKTypography>*/}
-            <MyModalVideo channel={"youtube"} videoId={"IrDVyLGwAq8?feature=shared"} />
+            <MyModalVideo channel={"youtube"} videoId={"bmvOC8P27L4?si=XwK2eByz4018sVHp"} />
           </Grid>
         </Container>
       </MKBox>

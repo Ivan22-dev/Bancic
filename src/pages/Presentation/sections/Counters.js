@@ -17,7 +17,7 @@ function Counters() {
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={70}
+              count={3000}
               suffix="+"
               title="Zadovoljnih korisnika"
               description="Pridruži se velikom broju zadovoljnih korisnika i ostvari svoj cilj"
@@ -26,7 +26,7 @@ function Counters() {
           <Grid item xs={12} md={4} display="flex">
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />
             <DefaultCounterCard
-              count={15}
+              count={13}
               suffix="+"
               title="Godina iskustva"
               description="Prepusti se našem timu stručnjaka s višegodišnjim iskustvom"
@@ -35,7 +35,7 @@ function Counters() {
           </Grid>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={3}
+              count={4}
               suffix="x"
               title="Mršavi brže"
               description="Jedan EMS trening zamjenjuje 3-4 konvencionalna treninga"

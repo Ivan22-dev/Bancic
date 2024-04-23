@@ -99,7 +99,7 @@ function Contact() {
                     ml={2}
                     fontWeight="regular"
                   >
-                    <a href="mailto:someone@example.com" style={{color:"white"}}>fali email!!!!!!!!!!</a>
+                    <a href="mailto:bancicivo@gmail.com" style={{color:"white"}}>bancicivo@gmail.com</a>
                   </MKTypography>
                 </MKBox>
                 <MKBox display="flex" color="white" p={1}>
@@ -114,7 +114,7 @@ function Contact() {
                     ml={2}
                     fontWeight="regular"
                   >
-                     <a href="https://www.google.com/maps/dir/43.7321078,16.6762971/Tu%C4%8Depska+ul.+20,+21000,+Split/@43.6227907,16.4519929,11z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x13355fcd0d75fa3d:0xa9d6c5039e43d4ea!2m2!1d16.4898702!2d43.5088174?entry=ttu" style={{color:"white"}} target="_blank">Tučepska ul. 20, 21000, Split</a>
+                     <a href="https://maps.app.goo.gl/rms7R1CwUuNGnnso7" style={{color:"white"}} target="_blank">Tučepska ul. 20, 21000, Split</a>
                   </MKTypography>
                 </MKBox>
                 <MKBox mt={3}>
@@ -125,14 +125,15 @@ function Contact() {
                   <a href="https://www.instagram.com/b_gym_by_ivobancic/?hl=en" style={{color:"white"}} target="_blank"> <i className="fab fa-instagram" style={{ fontSize: "1.25rem" }} /></a>
                   </MKButton>
                   <MKButton variant="text" color="white" size="large" iconOnly >
-                  <a href="http://www.google.com" style={{color:"white"}} target="_blank"> <i className="fab fa-youtube" style={{ fontSize: "1.25rem" }} /></a>
+                  <a href="https://youtu.be/bmvOC8P27L4" style={{color:"white"}} target="_blank"> <i className="fab fa-youtube" style={{ fontSize: "1.25rem" }} /></a>
                   </MKButton>
                 </MKBox>
               </MKBox>
             </MKBox>
           </Grid>
           <Grid  xs={12} lg={6}>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184846.04812212934!2d16.455833441464964!3d43.62279017708468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355fcd0d75fa3d%3A0xa9d6c5039e43d4ea!2sTu%C4%8Depska%20ul.%2020%2C%2021000%2C%20Split!5e0!3m2!1sen!2shr!4v1711487425722!5m2!1sen!2shr" width="722" height="570" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d723.4202726355347!2d16.48893826959915!3d43.508987970852715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDMwJzMyLjQiTiAxNsKwMjknMjIuNSJF!5e0!3m2!1sen!2shr!4v1713888987561!5m2!1sen!2shr" width="722" height="570" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </Grid>
         </Grid>
       </MKBox>
