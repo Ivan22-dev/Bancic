@@ -48,7 +48,7 @@ const routes = [
   {
     name: "Facebook",
     icon: <FacebookIcon />,
-    href: "facebook",
+    href: "https://web.facebook.com/p/B-GYM-100076471634241/?_rdc=1&_rdr",
   },
   getCookie('username')==="admin22"?{
     name: "Administracija",

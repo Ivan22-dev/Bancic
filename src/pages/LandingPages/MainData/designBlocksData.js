@@ -26,9 +26,9 @@ export default [
   },
   {
     title: "Limfna Drenaža",
-    description: "........",
+    description: "Smanjuje bol i poboljšajte kvalitetu života pomoću terapije kompresijom",
     img:limfna,
-    fulldescription:<>{"............"}</>
+    fulldescription:<>{"Drenažne hlače popularno su sredstvo za brzu regeneraciju, kako u profesionalnom sportu tako i kod rekreativaca. Dozvolite svome tijelu kvalitetan oporavak u najkraćem mogućem roku."}<br/><br/><h3 >{"Princip rada"}</h3>{"Sastoje se od različitih zračnih komora koje se napuhavaju u različitim intervalima ovisno o programu. To stvara val pritiska koji putuje od vaših stopala do gornjeg dijela tijela, masirajući vaše noge. Zračne komore postupno se pune zrakom tijekom uporabe, stvarajući glatku masažu valovima pritiska. Intenzitet pritiska i tijek masaže uvijek ovisi o Vašim individualnim potrebama. Već postoji velik broj studija koje dokazuju učinak kompresivne masaže."}<br/><br/><h3 >{"Benefiti:"}</h3><li>{"Opušta mišiće"}</li><li>{"Poboljšava pokretljivost"}</li><li>{"Uklanja metaboličke otpadne tvari"}</li><li>{"Skraćuje vrijeme regeneracije"}</li><li>{"Smanjuje rizik od upale"}</li></>
   },
   {
     title: "MegaSun Solarij",

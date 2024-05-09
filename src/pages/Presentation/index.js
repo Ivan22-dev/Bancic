@@ -34,6 +34,7 @@ import "../../css/myCss.css"
 import { MyModalVideo } from "examples/ModalVideo";
 import DesignBlocks from "pages/LandingPages/MainData/DesignBlocks";
 import BBottom from "pages/LandingPages/Bottom/Bottom";
+import { ContactForm } from "pages/form/ContactForm";
 
 function Presentation() {
   return (
@@ -101,6 +102,9 @@ function Presentation() {
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
+        <Container >
+        <ContactForm/>    
+         </Container>
         <DesignBlocks />
         <BBottom />
       </Card>

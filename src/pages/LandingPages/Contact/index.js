@@ -119,7 +119,7 @@ function Contact() {
                 </MKBox>
                 <MKBox mt={3}>
                   <MKButton variant="text" color="white" size="large" iconOnly>
-                  <a href="http://www.google.com" style={{color:"white"}} target="_blank"><i className="fab fa-facebook" style={{ fontSize: "1.25rem" }} /></a>
+                  <a href="https://web.facebook.com/p/B-GYM-100076471634241/?_rdc=1&_rdr" style={{color:"white"}} target="_blank"><i className="fab fa-facebook" style={{ fontSize: "1.25rem" }} /></a>
                   </MKButton>
                   <MKButton variant="text" color="white" size="large" iconOnly>
                   <a href="https://www.instagram.com/b_gym_by_ivobancic/?hl=en" style={{color:"white"}} target="_blank"> <i className="fab fa-instagram" style={{ fontSize: "1.25rem" }} /></a>

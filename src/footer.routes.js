@@ -19,7 +19,7 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "facebook",
+      link: "https://web.facebook.com/p/B-GYM-100076471634241/?_rdc=1&_rdr",
     },
     {
       icon: <InstagramIcon />,
