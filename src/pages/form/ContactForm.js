@@ -101,7 +101,7 @@ export const ContactForm =()=>{
               mx={2}
               mt={-3}
             >
-              <MKTypography variant="h3" color="white">
+              <MKTypography variant="h4" color="white">
                 Kontaktirajte nas
               </MKTypography>
             </MKBox>

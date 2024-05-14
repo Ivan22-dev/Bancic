@@ -25,7 +25,7 @@ const routes = [
     component: <EMS />,
   },
   {
-    name: "Kontakt",
+    name: "Kontakt/Lokacija",
     route: "/pages/contact",
     component: <Contact />,
   },
