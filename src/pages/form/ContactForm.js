@@ -1,9 +1,12 @@
+
 import { Grid } from "@mui/material"
 import MKBox from "components/MKBox"
 import MKInput from "components/MKInput"
 import MKTypography from "components/MKTypography"
 import MKButton from "components/MKButton";
 import { useEffect, useState } from "react";
+import emailjs from 'emailjs-com';
+
 
 function validateEmail(email) {
     var re = /\S+@\S+\.\S+/;
@@ -34,13 +37,36 @@ export const ContactForm =()=>{
             setValidator(false);
             setError("");
         }
+        
       
     }, [email,name,message]);
 
-    const handleForm=()=>{
+    const handleForm=(e)=>{
         if(name!==""&&email!==""&&message!==""&&validator){
           setError("");
-          console.log("data")
+         
+          const serviceId="service_3ea6omg";
+          const templateId="template_7f0ffxj";
+          const publicKey="io1YuA14BZxNj7-rW";
+          const tempateParams={
+            from_name:name,
+            from_email:email,
+            to_name:"Ivo",
+            message:message
+          }
+          emailjs.send(serviceId,templateId,tempateParams,publicKey)
+          .then((response)=>{
+            setEmail("");
+            setName("");
+            setMessage("");
+            window.location.reload();
+            alert("Poruka je uspješno poslana!");
+          })
+          .catch((error)=>{
+            console.log("Error sending mail",error);
+            setError("Došlo je do greške, kontaktirajte nas putem mobitela u rubrici Kontakt!");
+          })
+        
         }else{
             setError("Unesite tražene podatke");
         }
